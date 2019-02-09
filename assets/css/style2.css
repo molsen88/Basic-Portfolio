@@ -1,0 +1,119 @@
+html,body{
+    height: 100%;
+    background-image: url("../images/crossline-dots.png");
+    background-repeat: repeat;
+
+}
+header{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: Georgia, Times, Times New Roman, serif;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+#name{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 16px;
+    text-align: center;
+    position: absolute;
+    font-size: 12px;
+    font-family: Georgia, Times, Times New Roman, serif;
+    margin-left: 215px;
+}
+
+#menu{
+    
+    overflow: hidden;
+    color: #777777;
+    text-align: right;
+    padding: 36px;
+    margin-right: 20px;
+}
+a{
+    color: #777777;
+    border-right: #777777 2px solid;
+    padding: 5px;
+}
+#a{
+     color: #777777;
+    padding: 5px;
+}
+ul:hover{
+    color: dodgerblue;
+    cursor: cell;
+}
+.container{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin-top: 50px;
+    margin-bottom: -125px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: #777777;
+    border: solid;
+    width: 960px;
+    height: 650px;
+    border-style: outset;
+    position: relative;
+    clear: both;
+    box-sizing: content-box;
+    padding: 10px 20px 10px 20px;
+}
+#portfolio{
+    color: #4aaaa5;
+}
+.column{
+    float: left;
+    padding: 5px;
+}
+#baby{
+    float:left;
+}
+#liverpool{
+    float: left;
+}
+#mountains{
+    float: left;
+}
+#alta{
+    position: absolute;
+}
+#banner{
+    float: left;
+    
+
+
+}
+#beach{
+    float: left;
+}
+h4{
+    display: inline-block;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+
+}
+footer{
+    clear: both;
+    background-color: #666666;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    margin-bottom: -10px;
+    border-top: 8px solid #4aaaa5;
+    margin-right: -10px;
+    margin-left: -10px;
+
+}
+.footer{
+    margin-top: 200px;
+
+}
+#copy{
+    font-size: 11px;
+    padding: -10px 0px -5px 0px;
+}
