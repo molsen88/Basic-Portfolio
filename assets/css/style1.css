@@ -28,15 +28,29 @@ header{
     overflow: hidden;
     color: #777777;
     text-align: right;
-    padding: 20px;
+    padding: 36px;
     margin-right: 20px;
 }
+a{
+    color: #777777;
+    border-right: #777777 2px solid;
+    padding: 5px;
+    text-decoration: none;
+}
+#a{
+     color: #777777;
+    padding: 5px;
+    border-right: none;
+}
 
-ul:hover{
+a:hover{
         color:dodgerblue;
         cursor: cell;
-        
-    }
+        }
+#a:hover{
+    color:dodgerblue;
+        cursor: cell;
+}
 
 .box{
     background-color: #ffffff;
@@ -91,9 +105,7 @@ h4{
     cursor: pointer;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     position: relative;
-    
-
-}
+    }
 footer{
     clear: both;
     background-color: #666666;

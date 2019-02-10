@@ -29,13 +29,27 @@ header{
     overflow: hidden;
     color: #777777;
     text-align: right;
-    padding: 20px;
+    padding: 36px;
     margin-right: 20px;
 }
-ul:hover{
+a{
+    color: #777777;
+    border-right: #777777 2px solid;
+    padding: 5px;
+    text-decoration: none;
+}
+#a{
+     color: #777777;
+    padding: 5px;
+    border-right: none;
+}
+a:hover{
+        color:dodgerblue;
+        cursor: cell;
+        }
+#a:hover{
     color:dodgerblue;
-    cursor: cell;
-    
+        cursor: cell;
 }
 
 

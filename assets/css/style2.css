@@ -35,14 +35,20 @@ a{
     color: #777777;
     border-right: #777777 2px solid;
     padding: 5px;
+    text-decoration: none;
 }
 #a{
      color: #777777;
     padding: 5px;
+    border-right: none;
 }
-ul:hover{
-    color: dodgerblue;
-    cursor: cell;
+a:hover{
+        color:dodgerblue;
+        cursor: cell;
+        }
+#a:hover{
+    color:dodgerblue;
+        cursor: cell;
 }
 .container{
     background-color: #ffffff;
@@ -54,7 +60,7 @@ ul:hover{
     box-shadow: #777777;
     border: solid;
     width: 960px;
-    height: 650px;
+    height: 490px;
     border-style: outset;
     position: relative;
     clear: both;
@@ -71,6 +77,7 @@ ul:hover{
 #baby{
     float:left;
 }
+
 #liverpool{
     float: left;
 }
@@ -78,24 +85,28 @@ ul:hover{
     float: left;
 }
 #alta{
-    position: absolute;
+    float: left;
 }
 #banner{
     float: left;
-    
-
-
-}
+    }
 #beach{
     float: left;
 }
 h4{
     display: inline-block;
-    background-color: #4aaaa5;
+    background-color: #4aaaa569;
     color: white;
     padding: 10px;
     font-size: 18px;
-
+    position: relative;
+    left: -150px;
+    bottom: -109px;
+    text-align: center;
+}
+h4:hover{
+    cursor: cell;
+    color: black;
 }
 footer{
     clear: both;
